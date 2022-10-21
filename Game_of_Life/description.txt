@@ -1,0 +1,3 @@
+This folder contains a program implementing a simple GUI version of Conway's Game of Life.
+A cellular automaton devised by John Horton Conway, it is a zero-player game, that is, the evolution is determined only by the initial state, and no actual players are involved.
+The main program is contained in the file Game_GUI.py, and the board size has been preset to be 5x5.
