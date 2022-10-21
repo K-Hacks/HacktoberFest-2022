@@ -2,7 +2,7 @@ from tkinter import *
 from Game_of_Life import *
 
 #preset board size
-x, y = 5, 5
+x, y = 10, 10
 
 #called once the cells are selected
 def start():
@@ -34,8 +34,8 @@ def show_evolution(curr_cells):
 #initial set-up window
 window = Tk()
 window.title("Game of Life")
-window.geometry('400x200')
-window.resizable(False, False)
+window.geometry('500x400')
+#window.resizable(False, False)
 cells = [[IntVar() for r in range(x)] for c in range(y)]
 buttons = [[None]*y]*x
 selected_cells = set()
